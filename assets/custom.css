@@ -1,0 +1,199 @@
+/* ==========================================================================
+   Student Performance & Study-Hours Analytics Dashboard — assets/custom.css
+   --------------------------------------------------------------------------
+   Design language: minimal, editorial, calm.
+   Warm off-white canvas, white cards with hairline borders, charcoal ink,
+   muted navy + sage accents. No gradients, no glassmorphism, no glow.
+   ========================================================================== */
+
+:root {
+  --bg: #faf9f7;            /* warm off-white canvas */
+  --surface: #ffffff;       /* cards, sidebar */
+  --ink: #2b2d2f;           /* primary text */
+  --ink-soft: #4a4e54;      /* body text */
+  --muted: #6e7276;         /* captions, labels */
+  --border: #e7e3dc;        /* hairlines */
+  --navy: #2f4156;          /* primary accent */
+  --navy-soft: #3d5470;     /* hover accent */
+  --sage: #7c9885;          /* secondary accent */
+}
+
+/* ---------- Base ---------- */
+.stApp {
+  background-color: var(--bg);
+  color: var(--ink);
+}
+[data-testid="stHeader"] { background-color: transparent; }
+[data-testid="stToolbar"] { display: none; }
+#MainMenu, footer { visibility: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+h3 { font-size: 1.05rem; }
+p, li { color: var(--ink-soft); }
+hr { border-color: var(--border); }
+a { color: var(--navy); }
+
+/* ---------- Page header ---------- */
+.page-title {
+  font-size: 1.45rem;
+  font-weight: 650;
+  color: var(--ink);
+  letter-spacing: -0.015em;
+  margin-bottom: 0.15rem;
+}
+.page-caption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+.section-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0.5rem 0 0.15rem;
+}
+
+/* ---------- Sidebar ---------- */
+[data-testid="stSidebar"] {
+  background-color: var(--surface);
+  border-right: 1px solid var(--border);
+}
+[data-testid="stSidebar"] p { color: var(--muted); }
+[data-testid="stSidebarNav"] a,
+[data-testid="stSidebarNavLink"] {
+  color: var(--ink-soft);
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 0.92rem;
+}
+[data-testid="stSidebarNav"] a:hover,
+[data-testid="stSidebarNavLink"]:hover {
+  background-color: #f4f2ee;
+  color: var(--ink);
+}
+
+/* ---------- Inputs ---------- */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea,
+.stSelectbox div[data-baseweb="select"] > div,
+.stMultiSelect div[data-baseweb="select"] > div {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+.stTextInput input:focus,
+.stNumberInput input:focus,
+.stTextArea textarea:focus,
+.stSelectbox div[data-baseweb="select"] > div:focus,
+.stMultiSelect div[data-baseweb="select"] > div:focus {
+  border-color: var(--navy);
+  box-shadow: 0 0 0 1px var(--navy);
+}
+.stTextInput label,
+.stNumberInput label,
+.stSelectbox label,
+.stMultiSelect label,
+.stCheckbox label,
+.stRadio label {
+  color: var(--ink-soft);
+  font-size: 0.87rem;
+}
+
+/* ---------- Buttons ---------- */
+.stButton > button,
+.stDownloadButton > button,
+.stFormSubmitButton > button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.38rem 1.05rem;
+}
+.stButton > button[kind="primary"],
+.stFormSubmitButton > button[kind="primary"] {
+  background-color: var(--navy);
+  color: #ffffff;
+}
+.stButton > button[kind="primary"]:hover,
+.stFormSubmitButton > button[kind="primary"]:hover {
+  background-color: var(--navy-soft);
+}
+.stButton > button[kind="secondary"],
+.stDownloadButton > button[kind="secondary"] {
+  background-color: var(--surface);
+  border-color: var(--border);
+  color: var(--ink);
+}
+.stButton > button[kind="secondary"]:hover,
+.stDownloadButton > button[kind="secondary"]:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+}
+
+/* ---------- Metric cards ---------- */
+div[data-testid="stMetric"] {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px 10px;
+  box-shadow: 0 1px 2px rgba(35, 31, 32, 0.04);
+}
+div[data-testid="stMetricLabel"] p {
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+div[data-testid="stMetricValue"] {
+  color: var(--ink);
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+/* ---------- Cards (st.container(border=True)) ---------- */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+  background-color: var(--surface);
+  border: 1px solid var(--border) !important;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(35, 31, 32, 0.04);
+}
+
+/* ---------- Data tables ---------- */
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+/* ---------- Expanders ---------- */
+[data-testid="stExpander"] {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+/* ---------- Forms ---------- */
+[data-testid="stForm"] {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.15rem 1.15rem 0.9rem;
+}
+
+/* ---------- Status messages ---------- */
+[data-testid="stAlert"] {
+  border-radius: 10px;
+  font-size: 0.92rem;
+}

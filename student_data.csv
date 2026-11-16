@@ -1,0 +1,126 @@
+student_id,course,study_hours,score
+STU001,Computer Science,14.5,63
+STU002,Computer Science,17.0,51
+STU003,Computer Science,13.5,62
+STU004,Computer Science,9.5,68
+STU005,Computer Science,13.5,75
+STU006,Computer Science,9.5,55
+STU007,Computer Science,16.5,69
+STU008,Computer Science,10.0,66
+STU009,Computer Science,11.0,60
+STU010,Computer Science,14.5,72
+STU011,Computer Science,22.0,75
+STU012,Computer Science,9.5,67
+STU013,Computer Science,12.5,53
+STU014,Computer Science,15.5,76
+STU015,Computer Science,10.0,61
+STU016,Computer Science,14.0,73
+STU017,Computer Science,16.0,71
+STU018,Computer Science,15.5,57
+STU019,Computer Science,11.0,54
+STU020,Computer Science,19.5,74
+STU021,Computer Science,6.0,50
+STU022,Computer Science,15.5,77
+STU023,Computer Science,11.5,62
+STU024,Computer Science,12.0,47
+STU025,Computer Science,9.0,61
+STU026,Computer Science,16.0,67
+STU027,Computer Science,15.5,68
+STU028,Computer Science,10.0,54
+STU029,Computer Science,8.0,56
+STU030,Computer Science,13.0,69
+STU031,Electronics,14.5,60
+STU032,Electronics,11.0,37
+STU033,Electronics,6.0,42
+STU034,Electronics,7.5,54
+STU035,Electronics,10.0,55
+STU036,Electronics,10.5,47
+STU037,Electronics,15.0,53
+STU038,Electronics,12.5,48
+STU039,Electronics,12.0,55
+STU040,Electronics,11.5,67
+STU041,Electronics,7.0,51
+STU042,Electronics,17.0,75
+STU043,Electronics,17.5,56
+STU044,Electronics,7.5,40
+STU045,Electronics,14.0,53
+STU046,Electronics,7.0,55
+STU047,Electronics,20.0,95
+STU048,Electronics,7.5,36
+STU049,Electronics,8.0,45
+STU050,Electronics,11.0,64
+STU051,Electronics,11.0,41
+STU052,Electronics,9.5,62
+STU053,Electronics,12.0,62
+STU054,Electronics,6.5,38
+STU055,Electronics,20.5,72
+STU056,Electronics,7.5,58
+STU057,Electronics,11.0,53
+STU058,Electronics,13.5,51
+STU059,Electronics,6.0,56
+STU060,Electronics,12.0,59
+STU061,Mechanical Engineering,15.5,61
+STU062,Mechanical Engineering,14.5,70
+STU063,Mechanical Engineering,11.0,38
+STU064,Mechanical Engineering,17.0,75
+STU065,Mechanical Engineering,8.5,53
+STU066,Mechanical Engineering,6.0,47
+STU067,Mechanical Engineering,10.0,52
+STU068,Mechanical Engineering,16.0,66
+STU069,Mechanical Engineering,2.0,32
+STU070,Mechanical Engineering,5.0,35
+STU071,Mechanical Engineering,14.0,49
+STU072,Mechanical Engineering,8.0,51
+STU073,Mechanical Engineering,12.5,64
+STU074,Mechanical Engineering,7.0,46
+STU075,Mechanical Engineering,10.5,45
+STU076,Mechanical Engineering,11.0,80
+STU077,Mechanical Engineering,6.5,36
+STU078,Mechanical Engineering,7.5,55
+STU079,Mechanical Engineering,7.0,31
+STU080,Mechanical Engineering,9.5,40
+STU081,Mechanical Engineering,6.5,36
+STU082,Mechanical Engineering,4.0,49
+STU083,Mechanical Engineering,5.5,71
+STU084,Mechanical Engineering,5.0,42
+STU085,Mechanical Engineering,17.5,57
+STU086,Mechanical Engineering,13.5,59
+STU087,Mechanical Engineering,9.5,40
+STU088,Mechanical Engineering,9.0,48
+STU089,Mechanical Engineering,12.0,63
+STU090,Mechanical Engineering,11.5,54
+STU091,Electrical Engineering,9.0,56
+STU092,Electrical Engineering,21.0,89
+STU093,Electrical Engineering,9.0,53
+STU094,Electrical Engineering,13.0,56
+STU095,Electrical Engineering,16.0,65
+STU096,Electrical Engineering,10.0,59
+STU097,Electrical Engineering,11.0,56
+STU098,Electrical Engineering,12.5,58
+STU099,Electrical Engineering,11.0,61
+STU100,Electrical Engineering,10.5,47
+STU101,Electrical Engineering,19.5,67
+STU102,Electrical Engineering,10.5,52
+STU103,Electrical Engineering,10.5,69
+STU104,Electrical Engineering,19.5,84
+STU105,Electrical Engineering,19.5,81
+STU106,Electrical Engineering,11.0,55
+STU107,Electrical Engineering,16.0,63
+STU108,Electrical Engineering,11.0,70
+STU109,Electrical Engineering,19.5,71
+STU110,Electrical Engineering,11.5,48
+STU111,Electrical Engineering,18.5,73
+STU112,Electrical Engineering,7.5,46
+STU113,Electrical Engineering,9.0,63
+STU114,Electrical Engineering,14.5,50
+STU115,Electrical Engineering,12.5,72
+STU116,Electrical Engineering,3.5,44
+STU117,Electrical Engineering,5.5,60
+STU118,Electrical Engineering,15.5,66
+STU119,Electrical Engineering,16.5,71
+STU120,Electrical Engineering,13.0,55
+STU121,Computer Science,24.5,34
+STU122,Electronics,3.0,89
+STU123,Mechanical Engineering,25.0,45
+STU124,Electrical Engineering,4.0,92
+STU125,Computer Science,2.5,18

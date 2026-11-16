@@ -1,0 +1,10 @@
+# Streamlit theme — kept in sync with assets/custom.css
+[theme]
+base = "light"
+primaryColor = "#2F4156"
+backgroundColor = "#FAF9F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#2B2D2F"
+
+[client]
+toolbarMode = "minimal"
